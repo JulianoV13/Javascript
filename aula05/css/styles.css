@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+}
+main{
+    padding-left: 1.3em;
+    background-color: white;
+    width: 60%;
+    margin: 50px auto;
+    border-radius:50px;
+    height: 600px;
+}
+main{
+    background-image:url(../img/astronauta.jpg);
+    background-repeat: no-repeat;
+    background-position: 470px -220px;
+    background-size: 550px;
+}
+#opt h1{
+    padding: 15px 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 19pt;
+    display: inline-flex;
+    color: rgb(41, 41, 41);
+    
+}
+#opt select{
+    padding: 9px 15px;
+    margin-left: 245px;
+    background-color: white;
+    border-radius: 40px;
+    border: 1px solid silver;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(41, 41, 41);;
+    display: inline-flex;
+}
+h2{
+    padding-top: 20px;
+    padding-left: 69px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 60pt;
+    color: rgb(41, 41, 41);
+}
+h3{
+    padding-left: 85px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    color: rgb(41, 41, 41);
+}
+main #frmcadastro #btn{
+    background-image: url("https://t.ctcdn.com.br/essK16aBUDd_65hp5umT3aMn_i8=/400x400/smart/filters:format(webp)/i606944.png");
+    border-radius: 10px;
+    border: 2px solid silver;
+    width: 30%;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: 65px;
+    background-color: white;
+    background-size: 35px;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(41, 41, 41);
+    padding-left: 50px;
+    margin-top: 25px;
+    margin-left: 80px;
+
+}
+h4{
+    padding-top: 20px;
+    padding-left: 160px;
+    font-family: 'Outfit', sans-serif;
+    color: silver;
+
+}
+#login label{
+    display: block;
+}
+#login input[type=email]{
+    width: 30%;
+    padding: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 11pt;
+    border: 2px solid silver;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: rgb(41, 41, 41);
+
+}
+main #passwd a{
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    margin-left: 255px;
+    color: #0074e9;
+    text-decoration: none;
+}
+main #signup p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    margin-left: 130px;
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+main #signup a{
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    margin-left: 0px;
+    color: #0074e9;
+    text-decoration: none;
+}
+
+#login input[type=password]{
+    width: 30%;
+    padding: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 11pt;
+    border: 2px solid silver;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: rgb(41, 41, 41);
+}
+form input[type=submit]{
+    width: 30%;
+    padding: 10px;
+    font-family: 'Outfit', sans-serif;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+}

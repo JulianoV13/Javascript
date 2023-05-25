@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JulianoCOM</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+    <form action="confirmar.html" method="post" id="frmcadastro" enctype="multipart/form-data">
+        <section id="opt">
+            <h1>JulianoCOM.</h1>
+            <select id="idioma">
+                <option value="eng-us">US</option>
+                <option value="eng-uk">UK</option>
+                <option value="pt-br">BR</option>
+            </select>
+        </section>
+
+        <section id="texto">
+            <h2>Hi there!</h2>
+            <h3>Welcome to JotaCOM. Community Dashboard</h3>
+        </section>
+
+        <section id="login">
+            <input type="button" id="btn" value="Log in with Google">
+            <h4>━━━━━━ or ━━━━━━</h4>
+            <label for="txtemail"></label>
+            <input type="email" name="txtemail" id="txtemail" placeholder="Your email" required>
+
+            <label for="txtsenha"></label>
+            <input type="password" name="txtsenha" id="txtsenha" placeholder="Password" maxlength="32">
+        </section>
+
+        <div id="passwd">
+            <br>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Forgot password?</a>
+        </div>
+
+        <input type="submit" value="Log In">
+
+        <div id="signup">
+            <br>
+            <p>Don't have an account? <a href="https://youtu.be/jeM9yRJwKl8" target="_blank">Sign up</a></p>
+        </div>
+    </form>
+    </main>
+</body>
+</html>
